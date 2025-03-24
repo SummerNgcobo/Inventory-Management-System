@@ -7,19 +7,12 @@ using System.Threading.Tasks;
 
 namespace Inventory.Model
 {
-    public class NumberSequence
+    public class MeasureUnit
     {
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
-        [Required]
-        public string Module { get; set; }
-        [Required]
-        public string Prefix { get; set; }
 
-        public string LastNumber { get; set; }
-
-
-
+        public string Description { get; set; }
     }
 }
